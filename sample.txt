@@ -1,0 +1,6 @@
+# Sample DKIM records (sample data; keys are samples, not live keys)
+s1._domainkey.example.com	v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzuOPqTOcpwg6ulSBZ0XAcMPugSeHljQE9F6WWPdr+hFdVEa5K0a8MA+HGM0m2ZFKDWAGWy/ZvKl5PtZLx5xzl+X+/wD5qIlV53b1/Xh1zfnrO9qL+x44bPns4LYqgnzvsAfxE/sWUlyzfAxEmvV9Vg2kA0GOYfIuTFJHifG+f1FgWrRrlBW8CMCP5XWk4+YGjPANwVsOO179CrhcRDc1rBRDfSnecSl9k/FWSHm6FBGfssme9MsBdNf1AVUTUDxJl2zTGMmFEc3ZS/aNT6HwrwwCOggazfrgnMF/wJ+ENTeFfpHFyUOupsk7EhwDg6bqT0zNJ2+WXvkawQyAE8bDZQIDAQAB
+s2._domainkey.example.com	v=DKIM1; k=rsa; p=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAOSYPlX6KOocD2ryI2i+Yp+9bDYNS6cRECZLa9RFCo+W6c092Ouo19ehD5gsyk+G9fqc3UiyTaj68SZLxw3q2mkCAwEAAQ==
+s3._domainkey.example.com	v=DKIM1; k=ed25519; p=MCowBQYDK2VwAyEAsjcCPjCeHTCDKbvOyoG/pyh2tlgVtwqOCeIFmkn/9Lk=
+s4._domainkey.example.com	v=DKIM1; k=rsa; t=y; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzuOPqTOcpwg6ulSBZ0XAcMPugSeHljQE9F6WWPdr+hFdVEa5K0a8MA+HGM0m2ZFKDWAGWy/ZvKl5PtZLx5xzl+X+/wD5qIlV53b1/Xh1zfnrO9qL+x44bPns4LYqgnzvsAfxE/sWUlyzfAxEmvV9Vg2kA0GOYfIuTFJHifG+f1FgWrRrlBW8CMCP5XWk4+YGjPANwVsOO179CrhcRDc1rBRDfSnecSl9k/FWSHm6FBGfssme9MsBdNf1AVUTUDxJl2zTGMmFEc3ZS/aNT6HwrwwCOggazfrgnMF/wJ+ENTeFfpHFyUOupsk7EhwDg6bqT0zNJ2+WXvkawQyAE8bDZQIDAQAB
+bad._domainkey.example.com	v=DKIM1; k=rsa
